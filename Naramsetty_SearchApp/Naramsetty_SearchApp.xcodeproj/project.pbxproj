@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC4E5BE27D1180500BE952E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E5BD27D1180500BE952E /* AppDelegate.swift */; };
+		FAC4E5C027D1180500BE952E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E5BF27D1180500BE952E /* SceneDelegate.swift */; };
+		FAC4E5C227D1180500BE952E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E5C127D1180500BE952E /* ViewController.swift */; };
+		FAC4E5C527D1180500BE952E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC4E5C327D1180500BE952E /* Main.storyboard */; };
+		FAC4E5C727D1180600BE952E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC4E5C627D1180600BE952E /* Assets.xcassets */; };
+		FAC4E5CA27D1180600BE952E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC4E5C827D1180600BE952E /* LaunchScreen.storyboard */; };
+		FAC4E5D527D1180600BE952E /* Naramsetty_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E5D427D1180600BE952E /* Naramsetty_SearchAppTests.swift */; };
+		FAC4E5DF27D1180600BE952E /* Naramsetty_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E5DE27D1180600BE952E /* Naramsetty_SearchAppUITests.swift */; };
+		FAC4E5E127D1180600BE952E /* Naramsetty_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4E5E027D1180600BE952E /* Naramsetty_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC4E5D127D1180600BE952E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC4E5B227D1180500BE952E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC4E5B927D1180500BE952E;
+			remoteInfo = Naramsetty_SearchApp;
+		};
+		FAC4E5DB27D1180600BE952E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC4E5B227D1180500BE952E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC4E5B927D1180500BE952E;
+			remoteInfo = Naramsetty_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC4E5BA27D1180500BE952E /* Naramsetty_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naramsetty_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4E5BD27D1180500BE952E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC4E5BF27D1180500BE952E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC4E5C127D1180500BE952E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC4E5C427D1180500BE952E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC4E5C627D1180600BE952E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC4E5C927D1180600BE952E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC4E5CB27D1180600BE952E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC4E5D027D1180600BE952E /* Naramsetty_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Naramsetty_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4E5D427D1180600BE952E /* Naramsetty_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naramsetty_SearchAppTests.swift; sourceTree = "<group>"; };
+		FAC4E5DA27D1180600BE952E /* Naramsetty_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Naramsetty_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4E5DE27D1180600BE952E /* Naramsetty_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naramsetty_SearchAppUITests.swift; sourceTree = "<group>"; };
+		FAC4E5E027D1180600BE952E /* Naramsetty_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naramsetty_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC4E5B727D1180500BE952E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4E5CD27D1180600BE952E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4E5D727D1180600BE952E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC4E5B127D1180500BE952E = {
+			isa = PBXGroup;
+			children = (
+				FAC4E5BC27D1180500BE952E /* Naramsetty_SearchApp */,
+				FAC4E5D327D1180600BE952E /* Naramsetty_SearchAppTests */,
+				FAC4E5DD27D1180600BE952E /* Naramsetty_SearchAppUITests */,
+				FAC4E5BB27D1180500BE952E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC4E5BB27D1180500BE952E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4E5BA27D1180500BE952E /* Naramsetty_SearchApp.app */,
+				FAC4E5D027D1180600BE952E /* Naramsetty_SearchAppTests.xctest */,
+				FAC4E5DA27D1180600BE952E /* Naramsetty_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC4E5BC27D1180500BE952E /* Naramsetty_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4E5BD27D1180500BE952E /* AppDelegate.swift */,
+				FAC4E5BF27D1180500BE952E /* SceneDelegate.swift */,
+				FAC4E5C127D1180500BE952E /* ViewController.swift */,
+				FAC4E5C327D1180500BE952E /* Main.storyboard */,
+				FAC4E5C627D1180600BE952E /* Assets.xcassets */,
+				FAC4E5C827D1180600BE952E /* LaunchScreen.storyboard */,
+				FAC4E5CB27D1180600BE952E /* Info.plist */,
+			);
+			path = Naramsetty_SearchApp;
+			sourceTree = "<group>";
+		};
+		FAC4E5D327D1180600BE952E /* Naramsetty_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4E5D427D1180600BE952E /* Naramsetty_SearchAppTests.swift */,
+			);
+			path = Naramsetty_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		FAC4E5DD27D1180600BE952E /* Naramsetty_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4E5DE27D1180600BE952E /* Naramsetty_SearchAppUITests.swift */,
+				FAC4E5E027D1180600BE952E /* Naramsetty_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Naramsetty_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC4E5B927D1180500BE952E /* Naramsetty_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4E5E427D1180600BE952E /* Build configuration list for PBXNativeTarget "Naramsetty_SearchApp" */;
+			buildPhases = (
+				FAC4E5B627D1180500BE952E /* Sources */,
+				FAC4E5B727D1180500BE952E /* Frameworks */,
+				FAC4E5B827D1180500BE952E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Naramsetty_SearchApp;
+			productName = Naramsetty_SearchApp;
+			productReference = FAC4E5BA27D1180500BE952E /* Naramsetty_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC4E5CF27D1180600BE952E /* Naramsetty_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4E5E727D1180600BE952E /* Build configuration list for PBXNativeTarget "Naramsetty_SearchAppTests" */;
+			buildPhases = (
+				FAC4E5CC27D1180600BE952E /* Sources */,
+				FAC4E5CD27D1180600BE952E /* Frameworks */,
+				FAC4E5CE27D1180600BE952E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC4E5D227D1180600BE952E /* PBXTargetDependency */,
+			);
+			name = Naramsetty_SearchAppTests;
+			productName = Naramsetty_SearchAppTests;
+			productReference = FAC4E5D027D1180600BE952E /* Naramsetty_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC4E5D927D1180600BE952E /* Naramsetty_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC4E5EA27D1180600BE952E /* Build configuration list for PBXNativeTarget "Naramsetty_SearchAppUITests" */;
+			buildPhases = (
+				FAC4E5D627D1180600BE952E /* Sources */,
+				FAC4E5D727D1180600BE952E /* Frameworks */,
+				FAC4E5D827D1180600BE952E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC4E5DC27D1180600BE952E /* PBXTargetDependency */,
+			);
+			name = Naramsetty_SearchAppUITests;
+			productName = Naramsetty_SearchAppUITests;
+			productReference = FAC4E5DA27D1180600BE952E /* Naramsetty_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC4E5B227D1180500BE952E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FAC4E5B927D1180500BE952E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FAC4E5CF27D1180600BE952E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FAC4E5B927D1180500BE952E;
+					};
+					FAC4E5D927D1180600BE952E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FAC4E5B927D1180500BE952E;
+					};
+				};
+			};
+			buildConfigurationList = FAC4E5B527D1180500BE952E /* Build configuration list for PBXProject "Naramsetty_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC4E5B127D1180500BE952E;
+			productRefGroup = FAC4E5BB27D1180500BE952E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC4E5B927D1180500BE952E /* Naramsetty_SearchApp */,
+				FAC4E5CF27D1180600BE952E /* Naramsetty_SearchAppTests */,
+				FAC4E5D927D1180600BE952E /* Naramsetty_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC4E5B827D1180500BE952E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4E5CA27D1180600BE952E /* LaunchScreen.storyboard in Resources */,
+				FAC4E5C727D1180600BE952E /* Assets.xcassets in Resources */,
+				FAC4E5C527D1180500BE952E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4E5CE27D1180600BE952E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4E5D827D1180600BE952E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC4E5B627D1180500BE952E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4E5C227D1180500BE952E /* ViewController.swift in Sources */,
+				FAC4E5BE27D1180500BE952E /* AppDelegate.swift in Sources */,
+				FAC4E5C027D1180500BE952E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4E5CC27D1180600BE952E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4E5D527D1180600BE952E /* Naramsetty_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC4E5D627D1180600BE952E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4E5E127D1180600BE952E /* Naramsetty_SearchAppUITestsLaunchTests.swift in Sources */,
+				FAC4E5DF27D1180600BE952E /* Naramsetty_SearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC4E5D227D1180600BE952E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC4E5B927D1180500BE952E /* Naramsetty_SearchApp */;
+			targetProxy = FAC4E5D127D1180600BE952E /* PBXContainerItemProxy */;
+		};
+		FAC4E5DC27D1180600BE952E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC4E5B927D1180500BE952E /* Naramsetty_SearchApp */;
+			targetProxy = FAC4E5DB27D1180600BE952E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC4E5C327D1180500BE952E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC4E5C427D1180500BE952E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC4E5C827D1180600BE952E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC4E5C927D1180600BE952E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC4E5E227D1180600BE952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC4E5E327D1180600BE952E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC4E5E527D1180600BE952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Naramsetty_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Naramsetty_SearchApp ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Naramsetty-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC4E5E627D1180600BE952E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Naramsetty_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Naramsetty_SearchApp ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Naramsetty-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC4E5E827D1180600BE952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Naramsetty-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naramsetty_SearchApp.app/Naramsetty_SearchApp";
+			};
+			name = Debug;
+		};
+		FAC4E5E927D1180600BE952E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Naramsetty-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naramsetty_SearchApp.app/Naramsetty_SearchApp";
+			};
+			name = Release;
+		};
+		FAC4E5EB27D1180600BE952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Naramsetty-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Naramsetty_SearchApp;
+			};
+			name = Debug;
+		};
+		FAC4E5EC27D1180600BE952E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Naramsetty-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Naramsetty_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC4E5B527D1180500BE952E /* Build configuration list for PBXProject "Naramsetty_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4E5E227D1180600BE952E /* Debug */,
+				FAC4E5E327D1180600BE952E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC4E5E427D1180600BE952E /* Build configuration list for PBXNativeTarget "Naramsetty_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4E5E527D1180600BE952E /* Debug */,
+				FAC4E5E627D1180600BE952E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC4E5E727D1180600BE952E /* Build configuration list for PBXNativeTarget "Naramsetty_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4E5E827D1180600BE952E /* Debug */,
+				FAC4E5E927D1180600BE952E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC4E5EA27D1180600BE952E /* Build configuration list for PBXNativeTarget "Naramsetty_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4E5EB27D1180600BE952E /* Debug */,
+				FAC4E5EC27D1180600BE952E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC4E5B227D1180500BE952E /* Project object */;
+}
